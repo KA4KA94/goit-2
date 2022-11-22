@@ -1,10 +1,42 @@
-.test-link:hover,
-.test-link:focus{
-    color: brown;
+:root{
+    --primary-text-color:#212121;
+    --second-text-color: #757575;
+    --accent-color:#2196F3;
+    --bg-color:#FFFFFF;
+    --dark:#000000;
+    
 }
-.test-link{
-    color: blueviolet;
+.list{
+    list-style: none;
 }
-.test-link:active{
-    color: blue ;
+/* Header */
+.header{
+    background-color: var(--bg-color)
+}
+.logo{
+    color: var(--accent-color)
+}
+.logo-secondly{
+    color: var(--dark)
+}
+/* site-nav */
+.site-nav .link{
+    color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--accent-color)
+}
+.site-nav .link.active{
+    color: var(--accent-color);
+
+     
+}
+/* auch-nav */
+.auch-nav .link{
+color: var(--primary-text-color);
+}
+.auch-nav .link:hover,
+.auch-nav .link:focus{
+    color: var(--accent-color);
 }
