@@ -1,0 +1,10 @@
+.test-link:hover,
+.test-link:focus{
+    color: brown;
+}
+.test-link{
+    color: blueviolet;
+}
+.test-link:active{
+    color: blue ;
+}
