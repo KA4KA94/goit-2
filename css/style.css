@@ -11,18 +11,24 @@
 .list{
     list-style: none;
 }
+
+/* logo */
+.logo-primary{
+    color: var(--accent-color)
+}
+.logo-secondary{
+    color:var(--black)
+}
+.footer .logo-primary{
+    color: var(--accent-color)
+}
+.footer .logo-secondary{
+    color: var(--bg-color-white);
+}
+
 /* Header */
 .header{
     background-color: var(--bg-color)
-}
-.logo{
-    color: var(--accent-color)
-}
-.logo-primary{
-    color: var(--black)
-}
-.logo-secondary{
-    color: ;
 }
 /* site-nav */
 .site-nav .link{
@@ -45,6 +51,20 @@ color: var(--primary-text-color);
 .auch-nav .link:focus{
     color: var(--accent-color);
 }
+/* Button */
+.button{
+color: var(--bg-color-white);
+background-color: var(--accent-color);
+}
+.button-list .title{
+ background-color: var(--bg-color-white);
+ color: var(--primary-text-color);
+}
+.button-list .title:hover,
+.button-list .title:focus{
+    background-color: var(--accent-color);
+    color: var(--bg-color-white);
+}
 /* Hero */
 .hero{
     background-color:var(--bg-color-black);
@@ -62,7 +82,7 @@ color: var(--primary-text-color);
 }
 /* Work */
 /* Team */
-.
+
 .employee-link .title{
     color: var(--primary-text-color)
 }
