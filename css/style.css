@@ -2,8 +2,10 @@
     --primary-text-color:#212121;
     --second-text-color: #757575;
     --accent-color:#2196F3;
-    --bg-color:#FFFFFF;
-    --dark:#000000;
+    --bg-color-white:#FFFFFF;
+    --bg-color-black:#2F303A;
+    --black:#000000;
+
     
 }
 .list{
@@ -16,8 +18,11 @@
 .logo{
     color: var(--accent-color)
 }
-.logo-secondly{
-    color: var(--dark)
+.logo-primary{
+    color: var(--black)
+}
+.logo-secondary{
+    color: ;
 }
 /* site-nav */
 .site-nav .link{
@@ -39,4 +44,41 @@ color: var(--primary-text-color);
 .auch-nav .link:hover,
 .auch-nav .link:focus{
     color: var(--accent-color);
+}
+/* Hero */
+.hero{
+    background-color:var(--bg-color-black);
+    
+}
+.hero .hero-title{
+    color: var(--bg-color-white);
+}
+/* advantage */
+.advantage-link .title{
+    color: var(--primary-text-color);
+}
+.advantage-link .paragraph{
+    color: var(--second-text-color);
+}
+/* Work */
+/* Team */
+.
+.employee-link .title{
+    color: var(--primary-text-color)
+}
+.employee-link .paragraph{
+    color: var(--second-text-color);
+}
+.section-title .title{
+color: var(--primary-text-color);    
+}
+/* Footer */
+.footer{
+    background-color:var(--bg-color-black);
+}
+.address{
+    color: var(--bg-color-white);
+}
+.address-link{
+    color:rgba(255, 255, 255, 0.6);
 }
