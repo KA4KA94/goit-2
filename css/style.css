@@ -11,6 +11,10 @@
 .list{
     list-style: none;
 }
+.body{
+    font-family: 'Roboto';
+    background-color:var(--bg-color-white);
+}
 
 /* logo */
 .logo-primary{
@@ -19,17 +23,31 @@
 .logo-secondary{
     color:var(--black)
 }
+.logo-primary,
+.logo-secondary{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height:1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
 .footer .logo-primary{
     color: var(--accent-color)
 }
 .footer .logo-secondary{
     color: var(--bg-color-white);
 }
-
-/* Header */
-.header{
-    background-color: var(--bg-color)
+.footer .logo-primary,
+.footer .logo-secondary{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height:1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
+
 /* site-nav */
 .site-nav .link{
     color: var(--primary-text-color);
@@ -39,9 +57,7 @@
     color: var(--accent-color)
 }
 .site-nav .link.active{
-    color: var(--accent-color);
-
-     
+    color: var(--accent-color);   
 }
 /* auch-nav */
 .auch-nav .link{
@@ -51,40 +67,97 @@ color: var(--primary-text-color);
 .auch-nav .link:focus{
     color: var(--accent-color);
 }
+.site-nav .link,
+.auch-nav .link{
+font-weight: 500;
+font-size: 14px;
+line-height:1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
+}
+/* Header */
+.header{
+    background-color: var(--bg-color)
+}
+
+/* Hero */
+.hero{
+background-color:var(--bg-color-black);
+    
+    
+}
+.hero .title{
+    color: var(--bg-color-white);   
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+
+}
+
 /* Button */
 .button{
 color: var(--bg-color-white);
-background-color: var(--accent-color);
+background-color: var(--accent-color); 
+font-weight: 700;
+font-size: 16px;
+line-height:1.88;
+text-align: center;
+letter-spacing: 0.06em;
+text-decoration: none;
 }
-.button-list .title{
- background-color: var(--bg-color-white);
- color: var(--primary-text-color);
-}
-.button-list .title:hover,
-.button-list .title:focus{
-    background-color: var(--accent-color);
-    color: var(--bg-color-white);
-}
-/* Hero */
-.hero{
-    background-color:var(--bg-color-black);
-    
-}
-.hero .hero-title{
-    color: var(--bg-color-white);
+    .button .title:hover,
+    .button .title:focus{
+    color: var(--accent-color);
+    }
+    .button-title:hover,
+    .button-title:focus{
+      color: var(--bg-color-white);
+      background-color: var(--accent-color)
+    }
+.button-title{
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 /* advantage */
 .advantage-link .title{
     color: var(--primary-text-color);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 .advantage-link .paragraph{
     color: var(--second-text-color);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+
 }
 /* Work */
+.section-title .link{  
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+}
 /* Team */
 
 .employee-link .title{
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
 }
 .employee-link .paragraph{
     color: var(--second-text-color);
@@ -94,11 +167,34 @@ color: var(--primary-text-color);
 }
 /* Footer */
 .footer{
-    background-color:var(--bg-color-black);
+background-color:var(--bg-color-black);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
 }
 .address{
     color: var(--bg-color-white);
+    
 }
 .address-link{
     color:rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+/* Portfolio.html */
+.heading .description{
+    color: var(--primary-text-color)
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+
+}
+.heading .title{
+color: var(--second-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
 }
